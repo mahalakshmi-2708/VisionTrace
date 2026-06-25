@@ -1,0 +1,41 @@
+# Environment files
+.env
+backend/.env
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Virtual Environment
+.venv/
+backend/venv/
+
+# Node
+node_modules/
+frontend/node_modules/
+dist/
+
+# Uploaded videos
+uploads/*
+!uploads/.gitkeep
+
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Processed videos
+processed_videos/*
+!processed_videos/.gitkeep
+
+backend/processed_videos/*
+!backend/processed_videos/.gitkeep
+
+# Model files (large AI models)
+models/*
+!models/.gitkeep
+
+# IDE files
+.vscode/
+# YOLO Model
+backend/*.pt
+.idea/
